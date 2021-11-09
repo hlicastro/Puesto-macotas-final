@@ -6,4 +6,4 @@ Utilizando box-modelling, flexbox y grids se pudieron dar estilos a las diferent
 
 Bootstrap fue utilizado añadiendo clases al codigo, no se utilizaron themes predefinidos.
 
-EL link del sitio es https://hlicastro.github.io/Puestomascotas/
+EL link del sitio es  https://hlicastro.github.io/Puesto-macotas-final/
