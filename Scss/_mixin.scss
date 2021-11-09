@@ -1,0 +1,26 @@
+
+
+@mixin baseTitulo($fontS){
+    color: $colortitulos;
+    font-size: $fontS;
+    text-align: center;
+    
+}
+@mixin consejosDiceno($fontE){
+    text-align: center;
+    font-size: $fontE;
+    margin-top: 3px;
+    
+}
+@mixin baseBoton{
+    border-radius: 3px;
+        border: 1px solid $bordeContenedores;
+        color: $colortitulos ;
+        background-color: $fondoCeleste ;
+        
+        &:hover{
+            border: solid 1.5px black ;
+            background-color: $botonHover;
+        }
+
+}
