@@ -30,6 +30,10 @@
     .formularioDeContacto{
         width: 80%;
     }
+    .tituloAccesorios{
+        @include baseTitulo(5rem);
+    
+    }
     
 }    
 
