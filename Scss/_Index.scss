@@ -20,8 +20,14 @@
         margin: 2% 2% 2% 0%;
         border: $bordeContenedores 1px solid;
         border-radius: 5px;
+        text-align: center;
+        &__link{
+            @include baseBoton();
+            padding: 8px;
+        }
 
     }
+    
 /*Centra las imagenes de clientes */
     &__imagenes{
         display:flex;
