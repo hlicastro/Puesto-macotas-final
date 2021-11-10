@@ -5,14 +5,16 @@
     margin-top: 2%;
     
 }
+.consejos__titulo{
+    font-size: 2rem;
+    padding: 5px;
+}
 .consejos{
     display: flex;
     margin: 2%;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    .consejos__titulo{
-        @extend .baseConsejos;
-    }
+    
     .consejos__etiquetas{
         border: 2px solid black;
         background-color: $fondoCeleste;

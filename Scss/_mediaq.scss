@@ -34,6 +34,9 @@
         @include baseTitulo(5rem);
     
     }
+    .consejos__titulo{
+        font-size: 3rem;
+    }
     
 }    
 
@@ -67,5 +70,8 @@
     }
     .formularioDeContacto{
         width: 80%;
+    }
+    .consejos__titulo{
+        font-size: 3.5rem;
     }
 }
