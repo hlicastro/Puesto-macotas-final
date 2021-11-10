@@ -39,7 +39,6 @@
         &__texto{
             @include consejosDiceno(1rem); 
             margin-top: 3px;
-
         }
         &:hover {
             opacity: 1;

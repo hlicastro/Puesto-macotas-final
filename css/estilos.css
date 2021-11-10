@@ -178,7 +178,7 @@ body {
 
 .TituloContactos {
   color: #5E454B;
-  font-size: 4vw;
+  font-size: 5vw;
   text-align: center;
 }
 
@@ -243,10 +243,15 @@ body {
   color: black;
 }
 
-.baseConsejos, .consejos .consejos__titulo, .cambioAlimento .cambioAlimento__titulo, .cuidadoCahorros .cuidadoCahorros__titulo {
+.baseConsejos, .cambioAlimento .cambioAlimento__titulo, .cuidadoCahorros .cuidadoCahorros__titulo {
   text-align: center;
   color: #5E454B;
   margin-top: 2%;
+}
+
+.consejos__titulo {
+  font-size: 2rem;
+  padding: 5px;
 }
 
 .consejos {
@@ -471,6 +476,9 @@ body {
     font-size: 5rem;
     text-align: center;
   }
+  .consejos__titulo {
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -499,6 +507,9 @@ body {
   }
   .formularioDeContacto {
     width: 80%;
+  }
+  .consejos__titulo {
+    font-size: 3.5rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
